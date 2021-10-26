@@ -1,0 +1,61 @@
+* {
+    background-color: black;
+  }
+
+  body {
+      height: 100vh;
+      margin: 0 auto;
+    width: 80%;
+  }
+
+  p{
+      color: white;
+  }
+
+  header{
+      color: #E56312;
+      text-align: center;
+      padding:2%;
+      height: 5%;
+      font-size: 2em;
+  }
+
+  main{
+      height: 80%;
+  }
+
+#image{
+    text-align: center;
+    padding: 4%;
+}
+
+#image2{
+    text-align: center;
+    padding: 4%;
+    opacity: 30%;
+}
+
+#ataque {
+    width: 40%;
+}
+
+#button {
+    width: 100%;
+    text-align: center;
+    
+}
+button{
+    background-color: red;
+    color: white;
+    height: 4em;
+    width: 10em;
+    border-radius: 25px;
+    border: none;
+}
+
+  footer {
+      font-size: 1em; 
+      color: white;
+      text-align: center;
+      height: 10%;
+  }
