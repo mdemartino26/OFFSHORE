@@ -74,6 +74,7 @@ button{
   @media only screen and (max-width: 792px) {
     button{
         font-size: 5em;
+        border-radius: 25em;
     }
     header{
         font-size: 6em;
