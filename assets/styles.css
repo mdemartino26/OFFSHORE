@@ -79,4 +79,7 @@ button{
     header{
         font-size: 6em;
     }
+    #random{
+        font-size: 4em;
+    }
   }
