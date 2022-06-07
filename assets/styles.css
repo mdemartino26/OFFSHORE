@@ -70,3 +70,12 @@ button{
       text-align: center;
       height: 10%;
   }
+
+  @media only screen and (max-width: 1440px) {
+    button{
+        font-size: 5em;
+    }
+    header{
+        font-size: 6em;
+    }
+  }
