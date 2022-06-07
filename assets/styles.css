@@ -24,6 +24,10 @@
       height: 80%;
   }
 
+.noShow{
+    display: none
+}
+
 #image{
     text-align: center;
     padding: 4%;
