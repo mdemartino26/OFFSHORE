@@ -8,25 +8,25 @@ var loader4 = document.getElementById("4");
 function Loader(){
     oculto.setAttribute("class", "noShow");
     loader.setAttribute("class", "");
-    setTimeout(Loader2, 3000);
+    setTimeout(Loader2, 2000);
 }
 
 function Loader2(){
     loader.setAttribute("class", "noShow");
     loader2.setAttribute("class", "");
-    setTimeout(Loader3, 3000);
+    setTimeout(Loader3, 2000);
 }
 
 function Loader3(){
     loader2.setAttribute("class", "noShow");
     loader3.setAttribute("class", "");
-    setTimeout(Loader4, 3000);
+    setTimeout(Loader4, 2000);
 }
 
 function Loader4(){
     loader3.setAttribute("class", "noShow");
     loader4.setAttribute("class", "");
-    setTimeout(Atacar, 3000);
+    setTimeout(Atacar, 2000);
 }
 
 function Atacar(){
