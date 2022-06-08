@@ -1,11 +1,6 @@
-* {
-    background-color: black;
-  }
-
-  body {
+  #body {
       height: 100vh;
-      margin: 0 auto;
-    width: 80%;
+      background-color: black;
   }
 
   p{
@@ -71,4 +66,31 @@ button{
       height: 10%;
   }
 
-  }
+.fondocambiante{
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+  @keyframes bgcolor {
+    0% {
+        background-color: black
+    }
+
+    30% {
+        background-color: red
+    }
+
+    60% {
+        background-color: black
+    }
+
+    90% {
+        background-color: red
+    }
+
+    100% {
+        background-color: black
+    }
+}

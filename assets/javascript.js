@@ -4,10 +4,13 @@ var loader = document.getElementById("1");
 var loader2 = document.getElementById("2");
 var loader3 = document.getElementById("3");
 var loader4 = document.getElementById("4");
+var fondo = document.getElementById("body");
+
 
 function Loader(){
     oculto.setAttribute("class", "noShow");
     loader.setAttribute("class", "");
+    fondo.setAttribute("class", "fondocambiante");
     setTimeout(Loader2, 2000);
 }
 
@@ -33,6 +36,7 @@ function Atacar(){
 var oculto = document.getElementById("atacar");
 oculto.setAttribute("class", "noShow");
     loader4.setAttribute("class", "noShow");
+    fondo.setAttribute("class", "");
 var mostrar = document.getElementById("atacado");
 mostrar.setAttribute("class", "");
 var random = array[Math.floor(Math.random() * array.length)];
