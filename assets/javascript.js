@@ -48,6 +48,6 @@ document.getElementById("random").innerHTML = random;
 function Testigo(){
     var sound = document.getElementById("audio");
     sound.play();
-    setTimeout(sound.duration * 1000);
+    setTimeout(sound.duration * 2000);
     location.replace('pag2.html');
 }
