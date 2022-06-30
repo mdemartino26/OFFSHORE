@@ -49,5 +49,9 @@ function Testigo(){
     var sound = document.getElementById("audio");
     sound.play();
     setTimeout(sound.duration * 2000);
+    Cambiar();
+}
+
+function Cambiar (){
     location.replace('pag2.html');
 }
