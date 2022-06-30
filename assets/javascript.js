@@ -44,3 +44,9 @@ console.log(random);
 
 document.getElementById("random").innerHTML = random;
 }
+
+function Testigo(){
+    var sound = document.getElementById("audio");
+    sound.play();
+    setTimeout(sound.duration * 1000);
+}
