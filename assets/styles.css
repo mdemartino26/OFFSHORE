@@ -1,6 +1,7 @@
   #body {
       height: 100vh;
       background-color: black;
+      color: white;
   }
 
   p{
@@ -51,7 +52,7 @@
     transform: translateY(-50%) translateX(-50%);
 }
 button{
-    background-color: red;
+    background-color: #145DA5;
     color: white;
     height: 4em;
     width: 10em;
