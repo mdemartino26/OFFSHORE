@@ -21,7 +21,6 @@
       filter: brightness(5) invert(.7) sepia(.3) hue-rotate(180deg) saturate(200%);
       text-align: center;
       padding:2%;
-      height: 5%;
       font-size: 2em;
   }
 
