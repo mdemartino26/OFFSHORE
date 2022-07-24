@@ -1,4 +1,4 @@
-var audioPlayed = 0;
+var audioPlayed = 1;
 var audio = document.getElementById("audio");
 var array=["Pase libre, felicitaciones", 
 "Pase libre, felicitaciones", 
@@ -25,6 +25,7 @@ function DefensaTriturar(){
 
 
 function Triturar(){
+    audioPlayed = 0;
     audio.play();
     console.log("Aca estoy")
     setTimeout(() => {Cambiar();}, 5000)
