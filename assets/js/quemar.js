@@ -25,7 +25,6 @@ function DefensaTriturar(){
 
 function Triturar(){
     audio.play();
-    audioPlayed = 1;
     console.log("Aca estoy")
     setTimeout(() => {Cambiar();}, 5000)
 }
@@ -39,6 +38,8 @@ function Cambiar (){
 }
 
 function DefensaAbogado(){
+
+    audioPlayed = 1;
     var random = array[Math.floor(Math.random() * array.length)];
     console.log(random);
     document.getElementById("random").innerHTML = random;
