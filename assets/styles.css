@@ -71,6 +71,10 @@ button{
     font-family: 'Questrial';
 }
 
+button:active {
+    background-color: #145DA5;
+}
+
   footer {
       font-size: 1em; 
       text-align: center;
