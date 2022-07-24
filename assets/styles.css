@@ -75,7 +75,7 @@ button:active {
     color: white;
 }
 
-  footer {
+footer {
       font-size: 1em; 
       text-align: center;
       height: 10%;
@@ -89,24 +89,15 @@ button:active {
     animation-direction: alternate;
 }
 
-  @keyframes bgcolor {
-    0% {
-        background-color: black
-    }
-
-    30% {
-        background-color: red
-    }
-
-    60% {
-        background-color: black
-    }
-
-    90% {
-        background-color: red
-    }
-
-    100% {
-        background-color: black
-    }
+h3{
+    font-size: 3em;
+    color: #145DA5;
 }
+
+ h5{
+    border: 1px solid;
+    font-size: 2em;
+    color: #145DA5;
+    border-radius: 25px;
+    padding: 10%;
+ }
