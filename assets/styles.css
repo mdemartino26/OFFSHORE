@@ -1,11 +1,10 @@
   #body {
       height: 100vh;
-      background-color: black;
-      color: white;
+      font-family: url(fonts/Questrial-Regular.ttf);
+      }
   }
 
   p{
-      color: white;
   }
 
   header{
