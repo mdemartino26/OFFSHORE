@@ -34,11 +34,12 @@ console.log(audioPlayed);
 
 
 function Cambiar (){
-    audioPlayed = 1;
+    
     location.replace('soborno2.html');
 }
 
 function DefensaEscape(){
+    audioPlayed = 1;
     var random = array[Math.floor(Math.random() * array.length)];
     console.log(random);
     document.getElementById("random").innerHTML = random;
