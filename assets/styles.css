@@ -1,8 +1,13 @@
+@font-face {
+    font-family: 'Questrial'; /*a name to be used later*/
+    src: url('fonts/Questrial-Regular.ttf'); /*URL to font*/
+} 
+  
   #body {
       height: 100vh;
-      font-family: 'fonts/Questrial-Regular.ttf';
+      font-family: 'Questrial';
       }
-  }
+  
 
   p{
   }
