@@ -25,7 +25,7 @@ function DefensaSoborno(){
 
 function Soborno(){
     audio.play();
-    audioPlayed = 1;
+    
     console.log("Aca estoy")
     setTimeout(() => {Cambiar();}, 5000)
 }
@@ -34,7 +34,7 @@ console.log(audioPlayed);
 
 
 function Cambiar (){
-    
+    audioPlayed = 1;
     location.replace('soborno2.html');
 }
 
