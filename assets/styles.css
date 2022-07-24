@@ -6,10 +6,15 @@
   #body {
       height: 100vh;
       font-family: 'Questrial';
+      width: 80%;
+      margin: 0 auto;
       }
   
 
   p{
+    font-size: 3em;
+    color: #145DA5;
+    padding-top: 20%;
   }
 
   header{
@@ -56,17 +61,18 @@
     transform: translateY(-50%) translateX(-50%);
 }
 button{
-    background-color: #145DA5;
-    color: white;
+    color: #145DA5;
+    background-color: white;
     height: 4em;
     width: 10em;
     border-radius: 25px;
-    border: none;
+    border: 6px #145DA5 solid;
+    font-size: 3em;
+    font-family: 'Questrial';
 }
 
   footer {
       font-size: 1em; 
-      color: white;
       text-align: center;
       height: 10%;
   }
