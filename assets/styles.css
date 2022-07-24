@@ -73,6 +73,7 @@ button{
 
 button:active {
     background-color: #145DA5;
+    color: white;
 }
 
   footer {
