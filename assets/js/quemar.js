@@ -17,6 +17,7 @@ var array=["Pase libre, felicitaciones",
 "El jugador de la izquierda es culpable ahora, pierde 10 millones"];
 
 function DefensaTriturar(){
+    audioPlayed = 1;
     var random = array[Math.floor(Math.random() * array.length)];
     console.log(random);
     document.getElementById("random").innerHTML = random;
@@ -33,14 +34,6 @@ console.log(audioPlayed);
 
 
 function Cambiar (){
-    
     location.replace('quema2.html');
 }
 
-function DefensaAbogado(){
-
-    audioPlayed = 1;
-    var random = array[Math.floor(Math.random() * array.length)];
-    console.log(random);
-    document.getElementById("random").innerHTML = random;
-    }
